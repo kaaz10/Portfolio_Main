@@ -7,8 +7,8 @@
 }
 body {
   font-family: 'DM Sans', sans-serif;
-  background-color: #fafafa;
-  color: #002343;
+  background-color: #ffffff;
+  color: #000000;
   font-weight: regular;
   margin: auto;
   overflow-x: hidden;
@@ -27,10 +27,10 @@ html{
 }
 
 .element-main {
-  padding: 4rem 2rem;
+  padding: 2rem 2rem;
   width: 100%;
   display: inline-block;
-  background-color: #BCD8F2;
+  background-color: #abe2e6;
 }
 
 .title-banner {
@@ -72,7 +72,7 @@ h3.product{
 
 h4 {
   font-family: 'DM Sans', sans-serif;
-  color:#002343;
+  color:#383838;
   margin-bottom: 0.25rem;
   font-weight: 600;
 }
@@ -244,15 +244,15 @@ input:focus {
 
 /* Image as link */
 .img-item {
-  outline: 2px dashed #BCD8F2;
+  outline: 2px solid #abe2e6;
   transition: transform 0.2s;
   border-radius: 0.1rem;
-  box-shadow: 0px 1px 5px 5px #002343;
+  margin: 0.25rem;
 }
 
 .img-item:hover,
 .img-item:focus {
-  transform: scale(1.04);
+  transform: scale(1.01);
   opacity: 0.85;
   outline: 2px solid #BCD8F2;
   /* reference for zoom on hover: https://www.w3schools.com/howto/howto_css_zoom_hover.asp */

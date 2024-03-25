@@ -19,22 +19,21 @@
   <body>
 
     <header>
-      <h1>Styleguide Portfolio</h1>
 
       <nav class="grid nav-grid nav-bar">        
         <a class="nav-item" href="#bio">Bio</a>
         <a class="nav-item" href="#projects">Projects</a>
-        <a class="nav-item" href="#branding">Process Analysis</a>
+        <a class="nav-item" href="#process">Process Analysis</a>
         <a class="nav-item" href="product.html">Design</a>
         <a class="nav-item" href="product.html">Website</a>
       </nav>
     </header>
     
+    <!-- Bio Section // -->
     <section id="bio">
     <section class="title-banner">
       <div class="grid banner-grid">
         <div class="banner-text">
-          <h1>Bio</h1>
           <div class="col">
             <p>Hello & nice to virtually meet you!</p>
           <p class = "heading">
@@ -47,218 +46,52 @@
       </div>
     </section>
   </section>
-    <!-- INTERACTIVE ELEMENTS SECTION // -->
     
+    
+  <!-- Project Section // -->
     <section id="projects">
-    <h2 class="element-main">Projects</h2>
+    <h2 class="element-main">Selected Projects</h2>
       <section class="element">
         <div class="grid element-grid">
         <h3>Project 1</h3>
         <div class="col">
-        <h4>CSS selector:</h4>
-        <p>.text-link</p>
-        <p>Sample of  
-          <a class="text-link" href = "https://www.decoist.com/meditation-rooms-spaces/small-deck-in-the-secluded-garden-takes-your-meditation-practice-outdoors/">
-          rooms</a> this company can provide.
-        </p>
+        <h4>Kin App - Academic Project</h4>
+        <p>This was an academic project done in Fall 2023 for IAT334.</p>
+        <img class ="img-item" src="img/kin2.png" height="426" width="197" alt="project homepage">
+        <img class ="img-item" src="img/kin1.png" height="426" width="197" alt="project homepage"> 
         </div>
         </div>
-
       </section>
 
-
-      <!-- Default Button styling section -->
       <section class="element">
         <div class="grid element-grid">
         <h3>Project 2</h3>
         <div class="col">
-        <h4>CSS selector:</h4>
-        <p>.button-nav</p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
-
-        <h4>Rendered element:</h4>
-        <a class="button-nav" href="#">Default Button</a>
-        <a class="button-nav cart" href="#">Add to Cart</a>
-       </div>
-      </div>
-      </section>
-
-
-      <section class="element">
-        <div class="grid element-grid">
-        <h3>Submit/Reset Buttons</h3>
-        <div class="col">
-        <h4>CSS selector:</h4>
-        <p>.reset-form</p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;p&gt;Are you ready to create your account?&lt;/p&gt; <br>
-          &lt;form&gt;
-          Username:
-          &lt;input type="text"&gt; &lt;br&gt;
-          &lt;br&gt; <br> Password: &lt;input type="password"&gt; &lt;br&gt;&lt;br&gt; <br>
-          &lt;input type="submit" value="Submit"&gt;<br>
-          &lt;input type="reset" value="Reset"&gt;
-          &lt;/form&gt;</code>
-
-        <h4>Rendered element:</h4>
-        <p>Are you ready to create your account?</p>
-        <form>
-        Username:
-        <input type="text">
-        <br>
-        <br> Password:
-        <input type="password">
-        <br><br>
-        <span class="button-nav">
-          <span>
-              <input type="Submit" value="Submit">
-          </span>
-      </span>
-        <span class="button-nav">
-          <span>
-              <input type="Reset" value="Reset">
-          </span>
-      </span>
-        </form>
-        </div>
-      </div>
-      </section>
-
-
-      <section class="element">
-        <div class="grid element-grid">
-        <h3>Text Input Field with Label</h3>
-        <div class="col">
-        <h4>CSS selector:</h4>
-        <p>.form-link</p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;form method="post" action="#"&gt; &lt;label for="form-name"&gt; <br> Name: &lt;/label&gt; 
-          &lt;input type="text" id="form-name" placeholder="Karanjit Singh"&gt; &lt;br&gt; &lt;<br>input type="reset" value="Reset"&gt;
-          &lt;/form&gt;
-        </code>
-
-        <h4>Rendered element:</h4>
-        <form method="post" action="#">
-          <label for="form-name">Your Name:</label>
-          <input type="text" id="form-name" placeholder="Karanjit Singh"> <br>
-          <span class="button-nav">
-            <span>
-                <input type="Reset" value="Reset">
-            </span>
-        </span>
-        </form>
+        <h4>OkDive App - Personal Project</h4>
+        <p>This was made for an UI/UX Design Challenge.</p>
+        <img class ="img-item" src="img/ok1.png" height="426" width="197" alt="project homepage"> 
+        <img class ="img-item" src="img/ok2.png" height="426" width="197" alt="project homepage"> 
         </div>
         </div>
-
-      </section>
-
-
-      <section class="element">
-        <div class="grid element-grid">
-        <h3>Radio Button with Label</h3>
-        <div class="col">
-        <h4>CSS selector:</h4>
-        <p>.radio-group</p>
-
-        <h4>Sample code:</h4>
-        <code>
-          &lt;form&gt;
-          
-          &lt;h4>Please select how long you're planning to stay:&lt;/h4>
-          &lt;div class = "radio-group">
-          &lt;label class ="radio">
-          &lt;input type = "radio" value="1" name="days">
-            1 week
-            &lt;span></span>
-            &lt;/label>
-            &lt;label class = "radio">
-            &lt;input type = "radio" value="2" name="days">
-            2 weeks
-            &lt;span>&lt;/span>
-            &lt;/label>
-            &lt;label class = "radio">
-            &lt;input type = "radio" value="3" name="days">
-            1 month
-            &lt;span>&lt;/span>
-            &lt;/label>
-            &lt;/div>
-            &lt;/div>
-            &lt;/div>
-        </code>
-
-        <h4>Rendered element:</h4>
-        <h4>Please select how long you're planning to stay:</h4>
-        <div class = "radio-group">
-          <label class ="radio">
-            <input type = "radio" value="1" name="days">
-            1 week
-            <span></span>
-          </label>
-          <label class = "radio">
-            <input type = "radio" value="2" name="days">
-            2 weeks
-            <span></span>
-          </label>
-          <label class = "radio">
-            <input type = "radio" value="3" name="days">
-            1 month
-            <span></span>
-          </label>
-        </div>
-        </div>
-        </div>
-      </section>
-
-
-      <section class="element">
-        <div class="grid element-grid">
-        <h3>Image as a Link</h3>
-        <div class="col">
-        <h4>CSS selector:</h4>
-        <p>.image-link</p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;a href="https://www.decoist.com/meditation-rooms-spaces/space-is-never-a-contrasting-when-you-want-to-fashion-a-small-meditative-nook/"&gt; 
-          <br>&lt;img src="img/image.jpg" height="667" width="1000" alt="sample room"&gt; &lt;/a&gt;</code>
-
-        <h4>Rendered element:</h4>
-        <a href="https://www.decoist.com/meditation-rooms-spaces/space-is-never-a-contrasting-when-you-want-to-fashion-a-small-meditative-nook/"> 
-          <img class ="img-item" src="img/image.jpg" height="667" width="1000" alt="sample room"> </a>
-        </div>
-        </div>
-      </section>
-      
+      </section>     
     </section>
-    <!-- // INTERACTIVE ELEMENTS SECTION -->
 
-    <!-- TEXT ELEMENTS SECTION // -->
-    <section id="text_styling">
-      <h2 class="element-main">Text Styling</h2>
+
+    <!-- // Process Analysis-->
+    <section id="process">
+      <h2 class="element-main">Process Analysis</h2>
 
       <section class="element">
         <div class="grid element-grid">
-        <h3>Headings</h3>
+        <h3>Project 1</h3>
         <div class="col">
-        <h4>CSS selector:</h4>
-        <p>.h1</p>
-        <p>.h2</p>
-        <p>.h3</p>
-        <p>.h4</p>
-
-        <h4>Sample code:</h4>
-        <code>&lt;h1&gt; H1: This will be the title &lt;/h1&gt; <br>&lt;h2&gt; H2: This will be the subheadings &lt;/h2&gt;
-          <br>&lt;h3&gt; H3: This will be the prices and notifications &lt;/h3&gt;
-          <br>&lt;h4&gt; H4: This will be text &lt;/h4&gt;</code>
-
-        <h4>Rendered element:</h4>
-        <h1> H1: This will be the title </h1>
-        <h2> H2: This will be the subheadings </h2>
-        <h3> H3: This will be the prices and notifications </h3>
-        <h4> H4: This will be text </h4>
+        <h4>Kin App</h4>
+        <p>This was a team project for IAT334 Fall 2023, this project was done in teams of 3. 
+          The project’s aim was to develop an app for seniors who want to connect with their family. 
+          I was the lead UI/UX designer for this project, and came with the name “kin” for the app.</p>
+        <img class ="img-item" src="img/kin2.png" height="426" width="197" alt="project homepage">
+        <img class ="img-item" src="img/kin1.png" height="426" width="197" alt="project homepage"> 
+ 
         </div>
         </div>
       </section>
