@@ -81,6 +81,12 @@ h4 {
   font-size: 18px;
 }
 
+.heading{
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+  max-width: 50rem;
+}
+
 p,
 ol {
   margin-top: 0;
