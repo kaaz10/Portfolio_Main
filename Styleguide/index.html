@@ -24,8 +24,8 @@
         <a class="nav-item" href="#bio">Bio</a>
         <a class="nav-item" href="#projects">Projects</a>
         <a class="nav-item" href="#process">Process Analysis</a>
-        <a class="nav-item" href="product.html">Design</a>
-        <a class="nav-item" href="product.html">Website</a>
+        <a class="nav-item" href="#design">Design</a>
+        <a class="nav-item" href="#">Website</a>
       </nav>
     </header>
     
@@ -169,383 +169,11 @@
       </section>
 
     </section>
-    <!-- // TEXT ELEMENTS SECTION -->
-
-    <!-- COMBINED ELEMENTS SECTION // -->
-    <section id="combined_elements">
-      <h2 class="element-main">Combined Elements</h2>
-
-      <section class="element">
-        <div class="grid element-grid">
-        <h3>Main Navigation</h3>
-        <div class="col">
-          <h4>CSS selector:</h4>
-          <p>.nav-item .nav-bar</p>
-
-          <h4>Sample code:</h4>
-          <code>
-              &lt;a href="#" class="nav-item"&gt;Home &lt;/a&gt; <br>&lt;a
-              href="#" class="nav-item"&gt;Rooms &lt;/a&gt; <br>&lt;a href="#"
-              class="nav-item"&gt;Account &lt;/a&gt; <br>&lt;a href="#"
-              class="nav-item"&gt;Cart &lt;/a&gt;
-            </code>
-
-          <h4>Rendered element:</h4>
-
-          <nav class="grid nav-grid nav-bar">
-            <a href="#" class="nav-item">Home</a>
-            <a href="#" class="nav-item">Rooms</a>
-            <a href="#" class="nav-item">Bookings</a>
-            <a href="#" class="nav-item">Account</a>
-            <a href="#" class="nav-item">Cart</a>
-          </nav>
-        </div>
-        </div>
-      </section>
-
-      <section class="element">
-        <div class="grid element-grid">
-          <h3>Product/Service Listing</h3>
-
-          <div class="col">
-            <h4>CSS selector:</h4>
-            <p>.product-cards</p>
-
-            <h4>Sample code:</h4>
-            <code>
-              &lt;div class="grid products-grid">
-              &lt;section class="product-cards"><br>
-              &lt;a href="https://www.tauernhof-kaprun.at/en/spa/relax-room-hotel.html">&lt;
-              <br>img class="img-item" src="img/room.jpg" height="350" width="350" alt="Product Listing">&lt;/a><br>
-              &lt;h4>Sauna & Swing Room&lt;/h4>
-              &lt;p>$69.99 CAD&lt;/p><br>
-              &lt;a class="button-nav cart" href="#">Add to Cart</a><br>
-              &lt;/section>
-              &lt;/div>
-              &lt;/div>
-              &lt;/div>
-              </code>
-
-            <h4>Rendered element:</h4>
-
-            <div class="grid products-grid">
-              <section class="product-cards">
-                <a href="https://www.tauernhof-kaprun.at/en/spa/relax-room-hotel.html"><img class="img-item" src="img/room.jpg" height="350" width="350" alt="Product Listing"></a>
-                <h4>Sauna & Swing Room</h4>
-                <p>$69.99 CAD</p>
-                <a class="button-nav cart" href="cart.html">Add to Cart</a>
-              </section>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="element">
-        <div class="grid element-grid">
-        <h3>Payment Form</h3>
-        <div class="col">
-        <h4>CSS selector:</h4>
-          <p>.payment</p>
-
-          <h4>Sample code:</h4>
-          <code>
-            &lt;h3 class = "title-pay"> Please select your payment method:&lt;/h4>
-            &lt;div class = "radio-group">
-            &lt;label class ="radio">
-            &lt;input type = "radio" value="1" name="days">
-            Credit/Debit
-            &lt;span>&lt;/span>
-            &lt;/label>
-            &lt;label class = "radio">
-            &lt;input type = "radio" value="2" name="days">
-            PayPal
-            &lt;span></span>
-            &lt;/label>
-            &lt;/div>
-            &lt;form&gt;
-            &lt;div class="container"&gt;<br>
-  
-            &lt;form action=""&gt;<br>
-  
-            &lt;div class="row"&gt;<br>
-  
-            &lt;div class="col"&gt;<br>
-  
-            &lt;h3 class="title-pay">Billing Address&lt;/h3&gt;<br>
-  
-            &lt;div class="inputBox"&gt;<br>
-            &lt;span>Name:&lt;/span&gt;<br>
-            &lt;input type="text" placeholder="Karanjit Singh"&gt;<br>
-            &lt;/div>
-            &lt;div class="inputBox"&gt;<br>
-            &lt;span>Address:&lt;/span&gt;<br>
-            &lt;input type="text" placeholder="xxx 01 Ave"&gt;<br>
-            &lt;/div>
-            &lt;div class="inputBox"&gt;<br>
-            &lt;span>City:&lt;/span&gt;<br>
-            &lt;input type="text" placeholder="Surrey"&gt;<br>
-            &lt;/div>
-  
-            &lt;div class="flex"&gt;<br>
-            &lt;div class="inputBox"&gt;<br>
-            &lt;span>Provience:&lt;/span&gt;<br>
-            &lt;input type="text" placeholder="BC"&gt;<br>
-            &lt;/div&gt;
-            &lt;div class="inputBox"&gt;<br>
-            &lt;span>Postal Code:&lt;/span&gt;<br>
-            &lt;input type="text" placeholder="x0x 1x1"&gt;<br>
-            &lt;/div&gt;
-            &lt;/div&gt;
-  
-            &lt;/div&gt;
-            &lt;div class="col"&gt;<br>
-            &lt;h3 class="title-pay">Payment Method&lt;/h3&gt;<br>
-            &lt;div class="inputBox"&gt;<br>
-            &lt;span>Cards Accepted :&lt;/span&gt;<br>
-            &lt;img src="img/card.png" height="20" width = "80" alt=""&gt;<br>
-            &lt;/div&gt;
-            &lt;div class="inputBox"&gt;<br>
-            &lt;span>Name on Card:&lt;/span&gt;<br>
-            &lt;input type="text" placeholder="Karanjit Singh"&gt;<br>
-                &lt;/div&gt;
-                &lt;div class="inputBox"&gt;<br>
-                &lt;span>Card Number:&lt;/span&gt;<br>
-                &lt;input type="number" placeholder="xxxx 1111 xxxx 1111"&gt;<br>
-                &lt;/div&gt;
-                &lt;div class="inputBox"&gt;<br>
-                &lt;span>EXP date:&lt;/span&gt;<br>
-                &lt;input type="text" placeholder="xx/xx"&gt;<br>
-                &lt;/div&gt;
-                &lt;div class="inputBox"&gt;<br>
-                &lt;span>CVV :&lt;/span&gt;<br>
-                &lt;input type="text" placeholder="111"&gt; <br>  
-                &lt;/div&gt;
-                &lt;/div&gt;
-                &lt;/div&gt;  
-                &lt;/div&gt;
-                &lt;br&gt;
-                &lt;input type="submit" value="Proceed to Payment"&gt;<br>
-                &lt;input type="reset" value="Reset"&gt;<br>
-                &lt;/form&gt;
-                &lt;/form&gt;
-          </code>
-
-        <h4>Rendered elements:</h4>
-        <h3 class="title-pay">Please select your payment method:</h3>
-        <div class = "radio-group">
-          <label class ="radio">
-            <input type = "radio" value="1" name="days">
-            Credit/Debit
-            <span></span>
-          </label>
-          <label class = "radio">
-            <input type = "radio" value="2" name="days">
-            PayPal
-            <span></span>
-          </label>
-        </div>
-      <form>
-      <div class="container">
-
-        <div class="row">
-
-            <div class="col">
-
-                <h3 class="title-pay">Billing Address</h3>
-
-                <div class="inputBox">
-                    <span>Name:</span>
-                    <input type="text" placeholder="Karanjit Singh">
-                </div>
-                <div class="inputBox">
-                    <span>Address:</span>
-                    <input type="text" placeholder="xxx 01 Ave">
-                </div>
-                <div class="inputBox">
-                    <span>City:</span>
-                    <input type="text" placeholder="Surrey">
-                </div>
-
-                <div class="flex">
-                    <div class="inputBox">
-                        <span>Provience:</span>
-                        <input type="text" placeholder="BC">
-                    </div>
-                    <div class="inputBox">
-                        <span>Postal Code:</span>
-                        <input type="text" placeholder="x0x 1x1">
-                    </div>
-                </div>
-
-            </div>
-            <div class="col">
-                <h3 class="title-pay">Payment Method</h3>
-                <div class="inputBox">
-                    <span>Name on Card:</span>
-                    <input type="text" placeholder="Karanjit Singh">
-                </div>
-                <div class="inputBox">
-                    <span>Card Number:</span>
-                    <input type="number" placeholder="xxxx 1111 xxxx 1111">
-                </div>
-                <div class="inputBox">
-                    <span>EXP date:</span>
-                    <input type="text" placeholder="xx/xx">
-                </div>
-                    <div class="inputBox">
-                        <span>CVV :</span>
-                        <input type="text" placeholder="111">      
-                    </div>
-                </div>
-            </div>   
-        </div>
-        <br>
-        <a class="button-nav" href="#">Proceed to Payment</a>
-      </form>
-        </div>
-        </div>
-  </section>
-
-      <section class="element">
-        <div class="grid element-grid">
-        <h3>Checkout Cart</h3>
-        <div class="col">
-        <h4>CSS selector:</h4>
-        <p>.cartcheck-page</p>
-
-        <h4>Sample code:</h4>
-        <code>
-          &lt;div class="small-container .cartcheck-page"> <br>
-          &lt;table class="checkout"><br>
-          &lt;tr>
-          &lt;td class = "cart-table"><br>
-          &lt;div class="cart-info"><br>
-          &lt;img class = "cart-img" src="img/room.jpg" alt="sauna"><br>
-          &lt;div><br>
-          &lt;h4 class ="cart-text"> Sauna & Swing Room &lt;/h4><br>
-          &lt;p>Price: $69.99 CAD&lt;/p> <br>
-          &lt;a class="text-link" href =""> Remove&lt;/a><br>
-          &lt;/div>
-          &lt;/div><br>
-          
-          &lt;/td>
-          &lt;td class = "cart-table">&lt;input type="number" value = "1">&lt;/td><br>
-          &lt;td class = "cart-table text-cart">$69.99/-&lt;/td><br>
-          &lt;/tr>
-          &lt;tr>
-          &lt;td class = "cart-table"><br>
-          &lt;div class="cart-info"><br>
-          &lt;img class = "cart-img" src="img/art2.jpg" alt="art2"><br>
-          &lt;div><br>
-          &lt;h4 class ="cart-text"> Relaxing Suite &lt;/h4><br>
-          &lt;p>Price: $59.99 CAD&lt;/p> <br>
-          &lt;a class="text-link" href =""> Remove&lt;/a><br>
-          &lt;/div>
-          &lt;/div><br>
-          
-          &lt;/td>
-          &lt;td class = "cart-table">&lt;input type="number" value = "1">&lt;/td><br>
-          &lt;td class = "cart-table text-cart">$59.99/-&lt;/td><br>
-          &lt;/tr>
-          &lt;/table>
-          &lt;/div>
-        </code>
-
-        <h4>Rendered element:</h4>
-
-        <div class="small-container .cartcheck-page"> 
-          <table class="checkout">
-            <tr>
-              <td class = "cart-table">
-                <div class="cart-info">
-                  <img class = "cart-img" src="img/room.jpg" alt="sauna">
-                  <div>
-                    <h4 class ="cart-text"> Sauna & Swing Room </h4>
-                    <p>Price: $69.99 CAD</p> 
-                    <a class="text-link" href =""> Remove</a>
-                  </div>
-                </div>
-        
-              </td>
-              <td class = "cart-table"><input type="number" value = "1"></td>
-              <td class = "cart-table text-cart">$69.99/-</td>
-            </tr>
-            <tr>
-              <td class = "cart-table">
-                <div class="cart-info">
-                  <img class = "cart-img" src="img/art2.jpg" alt="art2">
-                  <div>
-                    <h4 class ="cart-text"> Relaxing Suite </h4>
-                    <p>Price: $59.99 CAD</p> 
-                    <a class="text-link" href =""> Remove</a>
-                  </div>
-                </div>
-        
-              </td>
-              <td class = "cart-table"><input type="number" value = "1"></td>
-              <td class = "cart-table text-cart">$59.99/-</td>
-            </tr>
-          </table>
-          <a class="button-nav" href="cart.html">Proceed to Checkout</a>
-        </div>
-      </section>
-
-    </section>
-    <!-- // COMBINED ELEMENTS SECTION -->
     
     
-    
-    <!-- BRANDING IDEAS -->
-    <section id="branding">
-      <h2 class="element-main"> Brand Design</h2>           
-      
-      <section class="element">
-        <div class="grid element-grid">
-        
-        <h3> What is Zen Studios to it's customers? </h3>
-        <div class="col">
-        <p>To potential customers, Zen Studios can be seen as a joyful and accommodating friend. 
-           Much like a considerate and understanding companion, Zen Studios strives to provide
-           tailored solutions to individuals' diverse needs. Whether someone needs a quiet place to focus on work 
-           or study, a creative environment for photography sessions, or a tranquil space for relaxation 
-           and meditation, Zen Studios also aims to be adaptable, 
-           ensuring that it resonates with the varied preferences and purposes of its customers, 
-           ultimately positioning itself as a supportive and flexible companion in their endeavors.</p>
-        </div>
-      </div>
-      </section> 
-
-      <section class="element">
-        <div class="grid element-grid">
-        <h3> Why Zen Studios? </h3>
-        <div class="col">
-        <ol>     
-          <li>
-            Clients can customize the spaces at Zen Studios to meet their specific preferences and 
-            requirements. This level of personalization ensures that the environment suits their unique needs, 
-            fostering a sense of ownership and comfort.</li>
-
-          <li>
-            Zen Studios offers a convenient and hassle-free solution for individuals who need 
-            specific spaces for different activities. Booking a ready-to-use room for a designated purpose 
-            eliminates the need for customers to set up their own spaces, saving time and effort.</li>
-
-          <li>
-            Zen Studios allows customers to book spaces for a specified duration, offering 
-            flexibility in terms of usage time. This is particularly appealing for those who may not 
-            need a permanent space but rather require it for specific periods.</li>
-
-          <li>
-            Zen Studios creates environments that inspire creativity, focus, or relaxation, depending 
-            on the customer's needs. This can contribute significantly to the overall experience 
-            and productivity of individuals using the spaces.</li>
-            
-        </ol>
-
-      </section> 
-      
-    </section>
-
+    <!-- Design Ideas -->
+    <section id="design">
+      <h2 class="element-main">Design Guidelines</h2>           
 
       <!-- BRAND COMPONENTS -->
       <section class="element">
@@ -572,113 +200,75 @@
         <table>
           <tr>
             <td>
-              <img src="img/c1.png" alt="C1" title="#FCFCF7">
+              <img src="img/c1.png" alt="C1" title="#FFFFFF">
             </td>
             <td>
-              <img src="img/c2.png" alt="C2" title="#EEF0D9">
+              <img src="img/c2.png" alt="C2" title="#D9D9D9">
             </td>
             <td>
-              <img src="img/c3.png" alt="C3" title="#D3D3D3">
+              <img src="img/c3.png" alt="C3" title="#ABE2E6">
             </td>
             <td>
-              <img src="img/c4.png" alt="C4" title="#AD9991">
+              <img src="img/c4.png" alt="C4" title="#383838">
+            </td>
+            <td>
+              <img src="img/c5.png" alt="C5" title="#000000">
             </td>
           </tr>       
           <tr>
-            <td>#FCFCF7</td>
-            <td>#EEF0D9</td>
-            <td>#D3D3D3</td>
-            <td>#AD9991</td>
-          </tr>
-        </table>
-        <table>
-          <tr>
-            <td>
-              <img src="img/c5.png" alt="C5" title="#FDBB31">
-            </td>
-            <td>
-              <img src="img/c6.png" alt="C6" title="#BCD8F2">
-            </td>
-            <td>
-              <img src="img/c7.png" alt="C7" title="#002343">
-            </td>
-          </tr>
-          <tr>
-            <td>#FDBB31</td>
-            <td>#BCD8F2</td>
-            <td>#002343</td>
+            <td>#FFFFFF</td>
+            <td>#D9D9D9</td>
+            <td>#ABE2E6</td>
+            <td>#383838</td>
+            <td>#000000</td>
           </tr>
         </table>
         </div>
         </div>
       </section>  
-      
+
       <section class="element">
         <div class="grid element-grid">
-        <h3> Potential Images/ Art Direction </h3>
+        <h3>Main Navigation</h3>
         <div class="col">
-        <table>
-          <tr>
-            <td>
-              <a href = "https://www.tauernhof-kaprun.at/en/spa/relax-room-hotel.html">
-              <img class ="img-item" src="img/art1.jpg" width = "400" height = "300" alt="A1" title="#1"></a>
-            </td>
-            <td>
-              <a href = "https://in.pinterest.com/pin/843439836433356288/">
-              <img class ="img-item" src="img/art2.jpg" width = "400" height = "300" alt="A2" title="#2"></a>
-            </td>
-          </tr>
-        </table>
+          <h4>Nav Bar</h4>
+          <p> Will use javascript here later to make it more aesthetic.</p>
 
-        <table>
-          <tr>
-            <td>
-              <a href = "https://www.homesandgardens.com/interior-design/bedrooms/relaxing-bedroom-ideas">
-              <img class ="img-item" src="img/art3.jpg" width = "400" height = "300" alt="A1" title="#3"></a>
-            </td>
-            <td>
-              <a href = "https://germaniaconstruction.com/5-theater-room-ideas-for-your-custom-luxury-home/">
-              <img class ="img-item" src="img/art4.jpg" width = "400" height = "300" alt="A2" title="#4"></a>
-            </td>
-          </tr>
-        </table>
-        <table>
-        <tr>
-        <td>
-          <a href = "https://expertphotography.com/indoor-photography-tips/">
-          <img class ="img-item" src="img/art5.jpg" width = "400" height = "300" alt="A5" title="#5"></a>
-        </td>
-        <td>
-          <a href = "https://giggster.com/find/vancouver--bc/photo-studio">
-          <img class ="img-item" src="img/art6.jpeg" width = "400" height = "300" alt="A6" title="#6"></a>
-        </td>
-        </tr>
-        </table>
+          <nav class="grid nav-grid nav-bar">
+            <a href="#" class="nav-item-main">Home</a>
+            <a href="#" class="nav-item-main">Projects</a>
+            <a href="#" class="nav-item-main">About</a>
+            <a href="#" class="nav-item-main">Contact</a>
+          </nav>
         </div>
         </div>
-      </section>  
-    </section>
+      </section>
 
-    <section id="citations">
-      <h2 class="element-main">Citations</h2>
-      <ul>
-        <li>Matteson, Steve. Designer. 2011. <strong>Open Sans [Font]</strong>. Retrieved from <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans">https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Open+Sans</a></li>
-        <li>Creator. (Role). (Year). <strong>Title [Media]</strong>. Retrieved from <a href="#">URL</a>.</li>
-        <li>Phearak. Poster. 2023. <strong>Office Space Moodboard [Media]</strong>. Retrieved from <a href="https://in.pinterest.com/pin/843439836433356288/">
-          https://in.pinterest.com/pin/843439836433356288/ </a>.</li>
-        <li>PIPPA BLENKINSOP. Author. 2022. <strong>Relaxing bedroom ideas. 12 soothing sleep spaces [Media]</strong>. Retrieved from <a href="https://www.homesandgardens.com/interior-design/bedrooms/relaxing-bedroom-ideas">https://www.homesandgardens.com/interior-design/bedrooms/relaxing-bedroom-ideas</a>.</li>
-        <li>GIGGSTER. Website. 2024. <strong>Top Studios in Vancouver [Media]</strong>. Retrieved from <a href="https://giggster.com/find/vancouver--bc/photo-studio">https://giggster.com/find/vancouver--bc/photo-studio</a>.</li>
-        <li>Dora Jokkel. Author. 2024. <strong>10 Indoor Photography Tips That will Improve Your Shots [Article]</strong>. Retrieved from <a href="https://expertphotography.com/indoor-photography-tips/">https://expertphotography.com/indoor-photography-tips/</a>.</li>
-        <li>Hotel Tauernhof. Website. <strong>Relaxation Rooms [Media]</strong>. Retrieved from <a href="https://www.tauernhof-kaprun.at/en/spa/relax-room-hotel.html">https://www.tauernhof-kaprun.at/en/spa/relax-room-hotel.html</a>.</li>
-        <li>Decoist. Website. 2009. <strong>Space is never a constraint when you want to fashion a small meditative nook [Media]</strong>. Retrieved from <a href="https://www.decoist.com/meditation-rooms-spaces/space-is-never-a-contrasting-when-you-want-to-fashion-a-small-meditative-nook/">https://www.decoist.com/meditation-rooms-spaces/space-is-never-a-contrasting-when-you-want-to-fashion-a-small-meditative-nook/</a>.</li>
-        <li>Biron, Bethany. Author. 2023. <strong>'Quiet rooms' are being built by companies to help employees relax and decompress on the clock [Article]</strong>. Retrieved from <a href="https://www.businessinsider.com/quiet-rooms-for-employees-relax-decompress-2023-4">https://www.businessinsider.com/quiet-rooms-for-employees-relax-decompress-2023-4</a>.</li>
-        <li>Colophon Foundry. Designer. 2019. <strong>DM Sans [Font]</strong>. Retrieved from <a href="https://fonts.google.com/specimen/DM+Sans">https://fonts.google.com/specimen/DM+Sans</a></li>
-        <li>Desjardins, Mathieu. Designer. 2018. <strong>Neue Montreal [Font]</strong>. Retrieved from <a href="https://pangrampangram.com/products/neue-montreal">https://pangrampangram.com/products/neue-montreal</a></li>
-        <li>Ajwong4. Poster. 2018. <strong>side by side images with captions using html5 only [HTML]</strong>. Retrieved from <a href="https://stackoverflow.com/questions/48652672/side-by-side-images-with-captions-using-html5-only-without-css-or-tables">https://stackoverflow.com/questions/48652672/side-by-side-images-with-captions-using-html5-only-without-css-or-tables</a></li>
-        <li>HTML5 Tutorial. <strong>Submit & Reset Buttons [HTML]</strong>. Retrieved from <a href="https://html5-tutorial.net/forms/submit-reset-buttons/">https://html5-tutorial.net/forms/submit-reset-buttons/</a></li>
-        <li>HTML5 Tutorial. <strong>Radio Input [HTML]</strong>. Retrieved from <a href="https://html5-tutorial.net/forms/radiobuttons/">https://html5-tutorial.net/forms/radiobuttons/</a></li>
-      </ul>
+      <section class="element">
+        <div class="grid element-grid">
+        <h3>In-text link</h3>
+        <div class="col">
+        <h4>Links</h4>
+        <p>Example of the  
+          <a class="text-link" target="_blank" href = "https://www.youtube.com/">
+          link</a>.
+        </p>
+        </div>
+        </div>
+
+      </section>
+      <section class="element">
+        <div class="grid element-grid">
+        <h3>Navigation Link</h3>
+        <div class="col">
+        <h4>Sample Button</h4>
+
+        <a class="button-nav" href="#">Contact Me</a>
+        <a class="button-nav option2" href="#">Contact Me</a>
+       </div>
+      </div>
+      </section>
+
     </section>
-  
   </body>
 </html>
