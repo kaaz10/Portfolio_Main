@@ -1,0 +1,401 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #fafafa;
+  color: #002343;
+  font-weight: regular;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-bottom-width: 0.1rem;
+  border-bottom-style: solid;
+  border-bottom-color: #eef0d9;
+  margin: 2rem;
+}
+
+.element-main {
+  padding: 4rem 2rem;
+  width: 100%;
+  display: inline-block;
+  background-color: #BCD8F2;
+}
+
+.title-banner {
+  padding: 2rem;
+}
+
+h1{
+  font-family: 'Neue Montreal', sans-serif;
+  font-size: 3.75rem;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Neue Montreal', sans-serif;
+  margin-top: 0.5rem;
+  font-size: 2.25rem;
+  font-style: bold;
+}
+
+h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.title-pay{
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-size: 1.5rem;
+  margin-top: 1.25rem;
+  margin-bottom: 0.15rem;
+}
+
+h3.product{
+  text-align: center;
+  font-size:xx-large;
+}
+
+h4 {
+  font-family: 'DM Sans', sans-serif;
+  color:#002343;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+.cart-text{
+  font-size: 18px;
+}
+
+p,
+ol {
+  margin-top: 0;
+  font-size: 1rem;
+  max-width: 36rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+code {
+  /*reference for styling code snipet: https://www.clairecodes.com/blog/2018-03-16-styling-inline-code-tags/ */
+  font-family: 'DM Sans', sans-serif;
+  background-color: #d3d3d3;
+  padding: 0.75rem;
+  display: inline-block;
+  max-width: 50rem;
+  border-radius: 0.25rem;
+  word-break: break-word;
+}
+
+.banner-text {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.banner-image {
+  margin: 0;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+.radio{
+  font-size:20px;
+  text-transform: capitalize;
+  display: inline-block;
+  vertical-align: middle;
+  color: #002343;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.radio + .radio{
+  margin-left: 20px;
+}
+
+.radio input[type="radio"]{
+  display:none;
+}
+
+.radio span{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border:3px solid #002343;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 7px;
+}
+
+.radio span:after{
+  content: "";
+  height: 8px;
+  width: 8px;
+  background: #002343;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 50%;
+  transition: 300ms ease-in-out 0s;
+}
+
+.radio input[type="radio"]:checked ~ span:after{
+  transform: translate(-50%, -50%) scale(1);
+}
+
+form {
+  max-width: 30rem;
+  border: 2px #002343;
+}
+
+label {
+  position: relative;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 0.3rem;
+  margin-top: 0.75rem;
+  display: block;
+  font-weight: 600;
+}
+
+input {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  padding: 0.4rem;
+  width: 100%;
+  border: 2.5px solid #BCD8F2;
+  border-radius: 0.4rem;
+  font-family: "DM Sans", sans-serif;
+  background-color: #fcfcf7;
+  transition-property: border-color;
+  transition-duration: 0.17s;
+  transition-timing-function: ease-in;
+  /* reference for changing border colour animation: https://stackoverflow.com/questions/9476923/css3-animate-border-color */
+
+}
+
+input::placeholder {
+  color: #ad9991;
+
+  /* reference for changing placeholder colour: https://www.w3schools.com/howto/howto_css_placeholder.asp#:~:text=In%20most%20browsers%2C%20the%20placeholder,opacity%3A%201%20to%20fix%20this. */
+}
+
+input:hover {
+  border-color: #fdbb31;
+}
+
+input:focus {
+  outline: #002343;
+  border-color: #002343;
+  background-color: #BCD8F2;
+}
+
+
+
+.text-link {
+  color: #fdbb31;
+  word-break: break-word;
+}
+
+.text-link:hover,
+.text-link:focus {
+  color: white;
+  background-color: #002343;
+}
+
+/* Image as link */
+.img-item {
+  outline: 2px dashed #BCD8F2;
+  transition: transform 0.2s;
+  border-radius: 0.1rem;
+  box-shadow: 0px 1px 5px 5px #002343;
+}
+
+.img-item:hover,
+.img-item:focus {
+  transform: scale(1.04);
+  opacity: 0.85;
+  outline: 2px solid #BCD8F2;
+  /* reference for zoom on hover: https://www.w3schools.com/howto/howto_css_zoom_hover.asp */
+}
+
+/* Styling for the navigation button */
+.button-nav {
+  color: #fafafa;
+  background-color: #002343;
+  font-size: 1rem;
+  padding: 0.75rem 1.1rem;
+  border-radius: 1.5rem;
+  transition: background-color 0.35s;
+  display: inline-block;
+  text-decoration: none;
+  margin: 0.5rem;
+  box-shadow: 0px 1px 3px 2px rgb(173, 153, 145, 0.2);
+
+  /* reference for drop shadow: https://www.w3schools.com/cssref/css3_pr_box-shadow.php */
+  /* reference for rounded corners: https://www.w3schools.com/css/css3_borders.asp */
+}
+
+.button-nav:hover,
+.button-nav:focus {
+  color:#002343;
+  background-color: #BCD8F2;
+  text-decoration: underline;
+}
+
+.cart {
+  background-color: #fdbb31;
+  color: #002343;
+}
+
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+.nav-item {
+  color: #002343;
+  background-color: #BCD8F2;
+  font-size: 1rem;
+  padding: 0.75rem 1.1rem;
+  border-radius: 1.5rem;
+  transition: background-color 0.35s;
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  /* reference for rounded corners: https://www.w3schools.com/css/css3_borders.asp */
+}
+
+.nav-item:hover,
+.nav-item:focus {
+  color:#fafafa;
+  background-color: #002343;
+  text-decoration: underline;
+}
+.nav-bar {
+  padding: 1rem;
+  background-color: #BCD8F2;
+}
+
+.product-cards {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  border: 2px solid #BCD8F2;
+  background-color: #fcfcf7;
+  max-width: 100%;
+  padding: 1rem 1rem 2rem;
+  border-radius: 0.5rem;
+}
+
+.product-cards img {
+  max-width: 100%;
+  margin: auto;
+}
+
+td{
+  padding:10px;
+}
+
+/*-- Cart page --*/
+.cartcheck-page{
+  margin: 0px;
+}
+
+.cart-page{
+  margin: 40px;
+}
+
+.checkout{
+  width:100%;
+  border-collapse: collapse;
+}
+
+.cart-info{
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+th{
+  text-align: left;
+  padding: 10px;
+  color: #002343;
+  background-color: #BCD8F2;
+  font-weight: bold;
+}
+
+.cart-table{
+  padding: 10px 5px;
+}
+
+.cart-table input{
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+}
+
+.cart-img{
+  height: 140px;
+  width: 200px;
+  margin-right: 20px;
+}
+
+.total-price{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.total-price table{
+  border-top: 3px solid #BCD8F2;
+  width: 100%;
+  max-width: 400px;
+}
+
+.text-cart{
+  text-align: right;
+}
+
+th:last-child{
+  text-align: right;
+}

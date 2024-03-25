@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .grid {
+    display: grid;
+  }
+  
+  @media (min-width: 48.43rem) {
+      .grid.banner-grid {
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-content: center;
+      }
+    }
+  
+    @media (min-width: 0rem) {
+      .grid.nav-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+        grid-row-gap: 0rem;
+  
+      }
+    }
+  
+  @media (min-width: 29.43rem) {
+    .grid.nav-grid {
+      grid-template-columns: 1fr 1fr;
+      text-align: center;
+    }
+  }
+
+  @media (min-width: 47.5rem) {
+    .grid.nav-grid {
+      grid-template-columns: 1fr 1fr 1fr;
+      text-align: center;
+    }
+  }
+  
+  @media (min-width: 78.43rem) {
+    .grid.nav-grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      text-align: center;
+    }
+  }
+  @media (min-width: 0rem) {
+    .grid.products-grid {
+      grid-row-gap: 3rem;
+    }
+  }
+  
+  @media (min-width: 31.8rem) {
+    .grid.products-grid {
+      grid-template-columns: 1fr;
+      grid-gap: 3rem;
+    }
+  }
+  
+  @media (min-width: 38.31rem) {
+    .grid.products-grid {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1rem;
+    }
+  }
+  
+  @media (min-width: 105.87rem) {
+    .grid.products-grid {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 1rem;
+    }
+  }
+  
+  @media (min-width: 23.43rem) {
+    .grid.colours-grid {
+      grid-template-columns: 1fr 1fr;
+      grid-row-gap: 3rem;
+    }
+  }
+  
+  @media (min-width: 36rem) {
+    .grid.colours-grid {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-row-gap: 3rem;
+    }
+  }
+  
+  @media (min-width: 73.75rem) {
+    .grid.colours-grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      grid-row-gap: 3rem;
+    }
+  }
+  
+  @media (min-width: 59.38rem) {
+    .grid.element-grid {
+      grid-template-columns: 1fr 2fr;
+      grid-row-gap: 0rem;
+      padding: 0.25rem;
+    }
+  }
+  
+  @media (min-width: 73.75rem) {
+    .grid.element-grid {
+      grid-template-columns: 1fr 3fr;
+      grid-row-gap: 0rem;
+      padding: 0.25rem;
+    }
+  }
