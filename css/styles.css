@@ -498,8 +498,8 @@ body.dark-theme {
 
 .home__description b {
   background: linear-gradient(90deg, 
-            hsla(14, 98%, 50%, .3), 
-            hsla(14, 98%, 50%, 0));
+            hsla(184, 98%, 50%, .6), 
+            hsla(184, 98%, 50%, 0));
 }
 
 .home__scroll {
