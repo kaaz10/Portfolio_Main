@@ -7,7 +7,7 @@
 
   /* Colors */
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(183, 100%, 50%);
+  --first-color: hsl(183, 100%, 50%, .6);
   --black-color: hsl(0, 0%, 0%);
   --black-color-light: hsl(0, 0%, 40%);
   --white-color: hsl(0, 0%, 95%);
@@ -174,7 +174,7 @@ https://www.youtube.com/watch?v=xodD0nw2veQ*/
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
-  --first-color: hsl(183, 100%, 50%);
+  --first-color: hsl(183, 100%, 50%, .6);
   --black-color: hsl(0, 0%, 18%);
   --black-color-light: hsl(0, 0%, 30%);
   --title-color: hsl(0, 0%, 95%);
@@ -210,6 +210,10 @@ body.dark-theme {
 
 .dark-theme .projects__card:hover {
   background-color: var(--body-color);
+}
+
+.dark-theme .circle {
+  border: 1px solid rgb(255, 255, 255);
 }
 
 .dark-theme :is(.contact__mail, .contact__input, .contact__label) {
