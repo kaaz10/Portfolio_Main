@@ -29,6 +29,7 @@
   --font-semi-bold: 600;
   --font-bold: 700;
 
+
   --z-tooltip: 10;
   --z-fixed: 100;
 }
@@ -417,6 +418,14 @@ body.dark-theme {
 .home__img {
   position: relative;
   z-index: 10;
+}
+
+.home__img2{
+  position: relative;
+  width: 60rem;
+  height: 15rem;
+  z-index: 10;
+  border: solid black;
 }
 
 .home__shadow {
@@ -1102,6 +1111,29 @@ body.dark-theme {
 .show-scroll {
   bottom: 3rem;
 }
+
+#social_logo_grid{
+  visibility:visible;
+}
+
+.text-section {
+  width: 80%; /* Adjust the width as needed */
+  margin: auto; /* This centers the div */
+  max-width: 800px; /* Optional: sets a max-width for wider screens */
+}
+
+.separator-line {
+  border: 0; /* Removes the default border */
+  height: 0.25rem; /* Sets the height of the line */
+  background-color: hsl(184, 80%, 50%, .7); /* Sets the color of the line */
+  width: 70%; /* Adjust to control the length of the line */
+  margin: 1rem auto; /* Adds space around the line and centers it */
+}
+
+.analysis{
+  margin-left: auto;
+}
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
