@@ -71,6 +71,18 @@ body {
   transition: background-color .4s; /* for dark mode */
 }
 
+.circle {
+  --circle-size: 30px;
+  position: fixed;
+  height: var(--circle-size);
+  width: var(--circle-size);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10%;
+  top: calc(var(--circle-size) / 2 * -1);
+  left: calc(var(--circle-size) / 2 * -1);
+  pointer-events: none;
+}
+
 h1, h2, h3, h4 {
   color: var(--title-color);
   font-weight: var(--font-bold);
@@ -130,6 +142,10 @@ body.dark-theme {
 
 .dark-theme :is(.home__arrow, .home__line, .about__line) {
   filter: none;
+}
+
+.dark-theme .circle{
+    border: 1px solid rgb(255, 255, 255);
 }
 
 .dark-theme .home__description b {
