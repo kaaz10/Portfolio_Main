@@ -70,6 +70,18 @@ body {
   transition: background-color .4s; /* for dark mode */
 }
 
+.circle {
+  --circle-size: 40px;
+  position: fixed;
+  height: var(--circle-size);
+  width: var(--circle-size);
+  border: 1px solid rgb(255, 60, 0);
+  border-radius: 100%;
+  top: calc(var(--circle-size) / 2 * -1);
+  left: calc(var(--circle-size) / 2 * -1);
+  pointer-events: none;
+}
+
 h1, h2 {
   font-family: 'Neue Montreal', sans-serif;
 }
