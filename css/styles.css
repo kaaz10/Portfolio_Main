@@ -1720,3 +1720,14 @@ th{
   background-color: #BCD8F2;
   font-weight: bold;
 }
+
+.citations{
+  padding-top: 5rem;
+  margin-left: 2rem;
+  padding-bottom: 1rem;
+}
+
+.th-cite{
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+}
