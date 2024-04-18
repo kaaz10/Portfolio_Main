@@ -67,7 +67,7 @@ body {
 }
 
 .circle {
-  --circle-size: 30px;
+  --circle-size: 25px;
   position: fixed;
   height: var(--circle-size);
   width: var(--circle-size);
@@ -1599,7 +1599,8 @@ nav a:hover, nav a:focus {
 }
 
 .text-link {
-  color: #abe2e6;
+  color: black;
+  text-decoration: underline;
   word-break: break-word;
 }
 
@@ -1710,7 +1711,6 @@ nav a:hover, nav a:focus {
 td{
   padding:10px;
 }
-
 
 th{
   text-align: left;

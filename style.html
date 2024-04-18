@@ -57,8 +57,7 @@
 
             <div class="nav__buttons">
 
-               <!-- Theme button -->
-               <i class="ri-moon-line change-theme" id="theme-button"></i>
+
 
                <!-- Toggle button -->
                <div class="nav__toggle" id="nav-toggle">
@@ -67,6 +66,9 @@
             </div>
          </nav>
       </header>
+
+      <div class="circle"></div>
+      <script src="js/cursor.js"></script>
 
       <!-- Bio Section // -->
     <section id="bio">
@@ -182,6 +184,12 @@
                   <td>
                     <img src="img/project-2.jpg" alt="C2" title="#D9D9D9">
                   </td>
+                  <td>
+                    <img src="img/apple1.png" alt="C1" title="#FFFFFF">
+                  </td>
+                  <td>
+                    <img src="img/apple2.png" alt="C2" title="#D9D9D9">
+                  </td>
                 </tr>       
               </table>
               <table>
@@ -195,57 +203,6 @@
               </div>
               </div>
             </section>  
-
-
-
-
-        <section id="design">
-          <h2 class="element-main">Design Guidelines</h2>           
-    
-          <!-- BRAND COMPONENTS -->
-          <section class="element">
-            <div class="grid element-grid">
-            <h3> Fonts/Typefaces </h3>
-            <div class="col">
-            <h2>Bai Jamjuree</h2>
-           
-            </div>
-            </div>
-          </section>   
-    
-          <section class="element">
-            <div class="grid element-grid">
-            <h3> Colour Palettes </h3>
-            <div class="col">
-            <table>
-              <tr>
-                <td>
-                  <img src="img/c1.png" alt="C1" title="#FFFFFF">
-                </td>
-                <td>
-                  <img src="img/c2.png" alt="C2" title="#D9D9D9">
-                </td>
-                <td>
-                  <img src="img/c3.png" alt="C3" title="#ABE2E6">
-                </td>
-                <td>
-                  <img src="img/c4.png" alt="C4" title="#383838">
-                </td>
-                <td>
-                  <img src="img/c5.png" alt="C5" title="#000000">
-                </td>
-              </tr>       
-              <tr>
-                <td>#FFFFFF</td>
-                <td>#D9D9D9</td>
-                <td>#ABE2E6</td>
-                <td>#383838</td>
-                <td>#000000</td>
-              </tr>
-            </table>
-            </div>
-            </div>
-          </section>  
         
         <!-- Design Ideas -->
         <section id="design">
@@ -299,17 +256,28 @@
           <section class="element">
             <div class="grid element-grid">
             <h3>Main Navigation</h3>
-            <div class="col">
-              <h4>Nav Bar</h4>
-              <p> Will use javascript here later to make it more aesthetic.</p>
-    
-              <nav class="grid nav-grid nav-bar">
-                <a href="#" class="nav-item-main">Home</a>
-                <a href="#" class="nav-item-main">Projects</a>
-                <a href="#" class="nav-item-main">About</a>
-                <a href="#" class="nav-item-main">Contact</a>
-              </nav>
-            </div>
+            <div class="nav__menu" id="nav-menu">
+                <span class="nav__title">Menu</span>
+ 
+                <h3 class="nav__name">Karan</h3>
+ 
+                <ul class="nav__list">
+                   <li class="nav__item">
+                      <a href="#ethos" class="nav__link active-link">Home</a>
+                   </li>
+ 
+                   <li class="nav__item">
+                      <a href="#projects" class="nav__link">Projects</a>
+                   </li>
+ 
+                   <li class="nav__item">
+                      <a href="#images" class="nav__link">Potential Images</a>
+                   </li>
+ 
+                   <li class="nav__item">
+                      <a href="#design" class="nav__link nav__link-button">Design</a>
+                   </li>
+                </ul>
             </div>
           </section>
     
@@ -332,12 +300,38 @@
             <div class="col">
             <h4>Sample Button</h4>
     
-            <a class="button-nav" href="#">Contact Me</a>
-            <a class="button-nav option2" href="#">Contact Me</a>
+            <div class="about__buttons">
+                <a href="https://www.youtube.com/" target="_blank" class="button">
+                   <i class="ri-send-plane-line"></i> Test Button
+                </a>
            </div>
           </div>
           </section>
     
         </section>
+
+         <!-- FOOTER -->
+      <footer class="footer">
+        <div class="footer__container container grid">
+           <ul class="footer__links">
+               <a href="home.html" target="_blank" class="footer__link">Website</a>
+            </li>
+
+            <li>
+               <a href="https://github.com/kaaz10/Portfolio_Main" target="_blank" class="footer__link">GitHub</a>
+            </li>
+
+            <li>
+               <a href="citation.html" target="_blank" class="footer__link">Citations</a>
+            </li>
+           </ul>
+
+           <span class="footer__copy">
+              &#169; All Rights Reserved By 
+              <a href="#">Karanjit Singh.</a>
+           </span>
+        </div>
+     </footer>
+
       </body>
     </html>
